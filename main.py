@@ -10,8 +10,8 @@ elif os.name == 'posix':
     sys.exit()
 
 def versionInfo() -> list:
-    version = "1.0.0"
-    year = "2023"
+    version = "1.0.1"
+    year = "2024"
     prod = True
     owner = "J Stuff (https://j-stuff.net)"
     return [version, year, prod, owner]
@@ -29,7 +29,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 No Data is sent off of this device to SCP:SL Technical Support or NORTHWOOD Studios. There is 1 request made to (https://api.ipify.org/) to get this device's IP address, which is required for this test to run. Their Privacy policy & TOS can be found here: (https://geo.ipify.org/privacy-policy, https://geo.ipify.org/terms-of-service)
 
-If you do not concent to these conditions, Close this program now by pressing close on this window, or by pressing the keybind (CTRL + C)!
+If you do not consent to these conditions, Close this program now by pressing close on this window, or by pressing the keybind (CTRL + C)!
 ''')
     input("Press ENTER to continue...")
     os.system('cls')

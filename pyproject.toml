@@ -7,19 +7,17 @@ authors = [
     {name = "J-Stuff", email = "jstuff@j-stuff.net"},
 ]
 dependencies = [
-    "requests>=2.31.0",
-    "halo>=0.0.31",
-    "certifi==2023.5.7",
-    "charset-normalizer==3.1.0",
-    "colorama==0.4.6",
-    "halo==0.0.31",
-    "idna==3.4",
-    "log-symbols==0.0.14",
-    "requests==2.31.0",
-    "six==1.16.0",
-    "spinners==0.0.24",
-    "termcolor==2.3.0",
-    "urllib3==2.0.2",
+    "certifi",
+    "charset-normalizer",
+    "colorama",
+    "halo",
+    "idna",
+    "log-symbols",
+    "requests",
+    "six",
+    "spinners",
+    "termcolor",
+    "urllib3",
 ]
 requires-python = ">=3.11"
 license = {text = "MIT"}
@@ -27,3 +25,5 @@ license = {text = "MIT"}
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[tool.pdm]
